@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Groups">
+        <groups>
+            <run>
+                 <include name="top"></include>
+               <!--<exclude name="top"></exclude> --> 
+            </run>
+        </groups>
+    <test name="top">
+          <classes>
+               <class name="testng.GoogleTest"/>
+               <class name="testng.RediffLoginTest"></class>
+         </classes>
+    </test>
+</suite>

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="parameters">
+      <parameter name="product" value="laptops"></parameter>
+      <parameter name="criteria" value="Price: High to Low"></parameter>
+      <test name="Retest">
+         <classes>
+            <class name="testngassignment.AmazonSearchTest"></class>
+         </classes>
+      </test>
+</suite>

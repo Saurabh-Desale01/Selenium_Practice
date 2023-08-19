@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Methods">
+  <test name="Retest 1">
+     <classes>
+        <class name="testng.GoogleTest">
+           <methods>
+                <!--<include name="gmail"></include> --> 
+                <exclude name="gmail"></exclude>
+           </methods>
+        </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameters1]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="admin@123"/>
+  <parameter name="username" value="admin"/>
+  <test thread-count="5" name="Retest(failed)">
+    <classes>
+      <class name="testngassignment.RediffLoginParametersTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="validLogin"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testngassignment.RediffLoginParametersTest -->
+    </classes>
+  </test> <!-- Retest(failed) -->
+</suite> <!-- Failed suite [Parameters1] -->
